@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-emphasis: emphasis em;
+    padding:15px 8px;
+    background-color: lightblue;
+}
+#table-o-c{
+    text-align: center;
+    background-color: grey;
+    padding:2% 5%;
+}
+#table-o-cc{
+    padding:5% 25%;
+}
+#left-side{
+    float:left;
+    line-height: 28px;
+    border:1px solid rgb(245, 152, 90);
+    position: fixed;
+    padding-top:0;
+}
+#li-link{
+    text-decoration: none;
+    color:rgb(21, 226, 147);
+}
+#right-side{
+    margin-left:25%;
+    margin-top:5%;
+}
+#description{
+    padding:4% 5%;
+    line-height: 30px;
+}
+#content{
+    font-size:20px;
+    padding:4% 0;
+}
+#overview,#team,#goals,#phases,#contents,#design,#functionality,#accessibility,#browser,#hosting,#ongoingsupport,#assumptions,#milestones,#budget,#deadline,#summary{
+    padding:7% 0;
+}
+#top{
+    text-align:center;
+}
+@media (max-width:400px){
+    #header{
+        width:100%;
+    }
+    #left-side{
+        width:100%;
+        margin:0 3%;
+        position: relative;
+    }
+    #right-side{
+        width:100%;
+        margin:0 5%;
+        position: relative;
+    }
+    #table-o-cc{
+        padding:5% 37%;
+    }
+    #description{
+        padding-top:38em;
+    }
+}
